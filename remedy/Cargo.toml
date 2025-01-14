@@ -13,5 +13,5 @@ pest_meta = "2.7.10"
 anyhow = "1.0.84"
 pest = "2.7.10"
 dirs = "5.0.1"
-trql = { path = "../../trql/trql" }
+trql = "0.2.1"
 newtype = "0.2.1"
