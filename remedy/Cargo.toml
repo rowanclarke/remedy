@@ -1,0 +1,17 @@
+[package]
+name = "remedy"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+doctest = false
+test = true
+
+[dependencies]
+pest_vm = "2.7.10"
+pest_meta = "2.7.10"
+anyhow = "1.0.84"
+pest = "2.7.10"
+dirs = "5.0.1"
+trql = { path = "../../trql/trql" }
+newtype = "0.2.1"
