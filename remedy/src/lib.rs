@@ -1,6 +1,5 @@
 mod parser;
-mod pest;
-mod token;
+pub mod pest;
 mod workspace;
 
 #[cfg(test)]
